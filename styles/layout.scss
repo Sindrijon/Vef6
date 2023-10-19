@@ -1,0 +1,28 @@
+  
+  /* Layout */
+  
+  .wrapper {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+  
+    /* grid items eru miðjuð */
+    justify-items: center;
+  
+    gap: var(--vertical-space);
+  }
+  
+  
+  /** Meginmál **/
+  
+  .main {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    gap: var(--vertical-space);
+  
+    width: var(--width-offset);
+    max-width: var(--max-width);
+  }
+  
+
