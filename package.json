@@ -10,7 +10,6 @@
     "dev": "concurrently npm:sass-watch npm:browser-sync",
     "lint": "stylelint styles.scss ./**/*.scss"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sindrijon/Vef6.git"
@@ -28,6 +27,8 @@
     "browser-sync": "^2.29.3",
     "concurrently": "^8.2.2",
     "sass": "^1.69.4",
-    "stylelint": "^15.11.0"
+    "stylelint": "^15.11.0",
+    "stylelint-config-sass-guidelines": "^10.0.0",
+    "stylelint-config-standard": "^34.0.0"
   }
 }

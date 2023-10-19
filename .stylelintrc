@@ -1,0 +1,12 @@
+{
+  "extends": ["stylelint-config-sass-guidelines"],
+  "rules": {
+
+      "max-nesting-depth": null,
+      "rule-empty-line-before": null,
+      "function-url-quotes": null,
+      "selector-no-qualifying-type": null,
+      "selector-pseudo-element-colon-notation": null
+
+  }
+}
