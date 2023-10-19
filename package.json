@@ -4,8 +4,13 @@
   "description": "package",
   "main": "index.js",
   "scripts": {
-    "test": "package"
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "sass styles.scss styles.css",
+    "sass-watch": "sass --watch styles.scss styles.css",
+    "dev": "concurrently npm:sass-watch npm:browser-sync",
+    "lint": "stylelint styles.scss ./**/*.scss"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sindrijon/Vef6.git"
