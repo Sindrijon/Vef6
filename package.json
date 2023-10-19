@@ -1,0 +1,28 @@
+{
+  "name": "Vef6",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "index.js",
+  "scripts": {
+    "test": "package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sindrijon/Vef6.git"
+  },
+  "keywords": [
+    "package"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sindrijon/Vef6/issues"
+  },
+  "homepage": "https://github.com/Sindrijon/Vef6#readme",
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.2",
+    "sass": "^1.69.4",
+    "stylelint": "^15.11.0"
+  }
+}
